@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+/* header section */
+#header {
+    background-color: #EDEDED;
+    height: 8rem;
+}
+
+.logo__slogan {
+    font-family: 'Lato', sans-serif;
+    color: #535353;
+    font-size: 16px;
+    margin-bottom: -0.5rem;
+    font-weight: 900;
+}
+
+.logo__yellow-bar {
+    height: .5rem;
+    background-color: #F5A000;
+}
+
+#main {
+    background-color: #F8FAFB;
+}
+
+#main .back-image {
+    background-image: url('./img/bg-error-new.png');
+    background-size: cover;
+    height: 21rem;
+}
+
+#main .main__title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #373737;
+    font-size: 21px;
+}
+
+#main .main__subtitle {
+    font-family: 'Lato', sans-serif;
+    color: #373737;
+    font-size: 14px;
+}
+
+#main .btn.custom-style {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    background-color: #F5A000;
+    color: #535353;
+}
+
+#footer {
+    background-color: #000000;
+}
+
+#footer .first-section .contact__color {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 17px;
+    color: #F5A000;
+}
+
+#footer .footer__icon {
+    height: 50px;
+}
+
+#footer .footer__number {
+    font-size: 12px;
+}
+
+#footer .footer__text {
+    font-family: 'Lato', sans-serif;
+    color: #F5A000;
+    font-size: 12px;
+}
+
+#footer .first-section,
+.midle-section {
+    border-bottom: 1px solid white;
+}
+
+#footer .footer-logo {
+    object-fit: cover;
+    height: 65px;
+}
+
+#footer .mid-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+
+}
+
+#footer .footer__slogan {
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    color: #707070;
+}
+
+#footer .selection-pays {
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+}
+
+#footer .flags {
+    height: 20px;
+}
